@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Application from './component/Application';
+import Checkbox from './component/checkbox';
+import CalenderSettingsModal from './component/checkkey';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Application />
+
   </React.StrictMode>
 );
 
